@@ -1,0 +1,15 @@
+ dfas wete t this is test file for testing the git files.
+werwetmasdgoup wet wetergtp0eqwet 
+]etqegtqreg
+etqwetqwettgergerge mahesh ergttedgere  weterwb6 
+Installation of SonarQube
+Following is instruction-set to get setup with SonarQube:
+•	Go https://binaries.sonarsource.com/Distribution/sonarqube/  -click show all versions
+•	https://sonarsource.bintray.com/Distribution/sonarqube/sonarqube-6.7.7.zip
+•	Unzip the downloaded file
+•	Go to <install_directory>/bin folder. You would find different folders related with OS platforms. As I have 64 bit Win system, I further went inside “windows-x86-64″ folder.
+•	You shall find different shell scripts files. For my win platform, I found different *.bat file such as InstallNTService.bat, StartNTService.bat, StartSonar.bat etc.
+•	Copy the path of this folder which may look like S<install_director>/bin/Windows-x86-64 (in case of my laptop), and append it to “Path” environment variable.
+•	Open a command prompt, type “StartSonar” command and execute. This would start a web server at default port of 9000.
+•	Open a web browser and access the page, http://localhost:9000. You shall see the page such as that shown in the screenshot below. This means that you have been able to successfully start your SonarQube server. Job, well done! Lets move further to analyze Spring PetClinic Sample Application.
+
